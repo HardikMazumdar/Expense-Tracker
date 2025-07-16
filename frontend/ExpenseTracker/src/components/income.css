@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.Income{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    margin-top: 60px;
+}
+.h1{
+    text-align: center;
+}
+.AddIncome
+{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.AddIncome button
+{
+    width:120px;
+    height:50px;
+    border: 0;
+    border-radius: 10px;
+    background-color:rgb(187, 66, 231); 
+    color: white;
+    cursor:pointer;
+    padding-left:5px;
+    padding-right:5px;
+}
+.Chart{
+    display:flex;
+    flex-direction:column;
+  
+}
+.Chart .chart-container{
+    width: 50vw;
+    height: 70vh;
+    margin:0 auto;
+    overflow-x: hidden;
+}
+.IncomeSources{
+    margin-top:10px;
+   
+}
+.IncomeSources .source{
+    display:flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;;
+    width: 60vw;
+    height: 15vh;
+    background-color:white;
+    box-shadow: 2px 2px 5px 2px rgb(177, 114, 207);
+    padding-left:10px;
+    padding-top:20px;
+    margin-top:40px;
+    border-radius: 10px;
+    transition: transform 0.3s ease; 
+}
+.IncomeSources .source:hover
+{
+    transform: scale(1.0225);
+}
+.IncomeSources .source .dataIncomeSpan, .IncomeSources .source .incomeSourceSpan{
+    font-weight: bold;
+    color:rgb(188, 60, 235);
+}
+.source button
+{
+    position:absolute;
+    align-self:flex-end;
+    margin-right:5px;
+    margin-top: 5px;
+    padding-left:5px;
+    padding-right:5px;
+    height:35px;
+    background-color: rgb(188, 60, 235);
+    color: white;
+    border:0;
+    border-radius: 10px;
+    border:3px solid white;
+    cursor:pointer;
+}
+.source button:hover{
+    background-color:rgb(54, 73, 193) ;
+}
+.AddIncomeSourceForm{
+    z-index:2;
+    position:fixed;
+    top:10vh;
+    left:30vw;
+    background-color: white;
+    
+}
+.AddIncomeSourceForm .goBack
+{
+    color:black;
+    cursor:pointer;
+}
+.contentBlur
+{
+    filter:blur(5px);
+    pointer-events: none;
+    user-select: none;
+
+}
+.AddIncomeSourceForm form
+{
+    height: 400px;
+    width:400px;
+    border:2px solid violet;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.AddIncomeSourceForm form .amount, .AddIncomeSourceForm form .dateReceived, .AddIncomeSourceForm form .amountSource
+{
+    margin-left: 10px;
+}
+.AddIncomeSourceForm form input
+{
+    width:350px;
+    height:30px;
+    outline:none;
+    border:1px solid rgb(204, 147, 253);
+    padding:1px;
+    border-radius:5px;
+}
+.AddIncomeSourceForm form input:focus
+{
+    border:2px solid rgb(204, 147, 253);
+    padding:0;
+    outline:none;
+}
+.AddIncomeSourceForm .submitButton
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.AddIncomeSourceForm .submitButton button
+{
+    width:150px;
+    height:40px;
+    background-color: rgb(188, 60, 235);
+    border:0;
+    border-radius: 5px;
+    font-size:large;
+    color:white;
+    cursor:pointer;
+    padding-left:5px;
+    padding-right:5px;
+}
+.AddIncomeSourceForm .submitButton button:hover
+{
+    background-color: rgb(165, 69, 200);
+}
+.AddIncomeSourceForm .submitButton button:disabled{
+    background-color: grey;
+    cursor:not-allowed;
+}
+.AddIncomeSourceForm .error{
+color:red;
+    font-size: smaller;
+    min-height: 1em;
+    display: block;
+    position: absolute;
+}

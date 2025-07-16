@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.SignUpForm
+{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.SignUpForm h3
+{
+    font-family: "Poppins", sans-serif;
+}
+.SignUpForm form
+{
+    font-family: "Poppins", sans-serif;
+    border: 2px solid rgb(136, 0, 255);
+    border-radius: 20px;
+    width: 400px;
+    height: 470px;
+}
+.name , .email , .password, .submitbutton
+{
+
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10x;
+    overflow-y: hidden;
+}
+.name label, .email label, .password label
+{
+    font-size: large;
+}
+.name input, .email input, .password input
+{
+    font-family: "Poppins", sans-serif;
+    height: 30px;
+    width:350px;
+    border: 1px solid rgb(204, 147, 253);
+    padding:1px;
+    border-radius: 5px;
+    margin-top:5px;
+    outline:none;
+    z-index: 0;
+}
+.error{
+   color:red;
+    font-size: smaller;
+    min-height: 1em;
+    display: block;
+    position: absolute; 
+}
+.name input:focus, .email input:focus, .password input:focus
+{
+    padding:0;
+    border: 2px solid rgb(136, 0, 255);
+    outline:none;
+}
+.loginForm form input
+{
+    font-family: "Tektur", sans-serif;
+}
+.icon
+{
+    z-index:2;
+    margin-left:330px;
+    padding-top:10px;
+    cursor:pointer;
+}
+.submitbutton
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2em;
+}
+.submitbutton button
+{
+    font-size: 1.225rem;
+    width: 200px;
+    height:40px;
+    border:0;
+    border-radius: 10px;
+    background-color: rgb(53, 99, 224);
+    color:white;
+    position:absolute
+}
+.submitbutton button:hover
+{
+    background-color: rgb(42, 86, 204);
+    cursor:pointer;
+}
+.submitbutton button:disabled
+{
+    cursor:not-allowed;
+    background-color: rgb(149, 175, 239);
+}
+#a1
+{
+    font-family: "Poppins", sans-serif;
+}
+.password .passwordInput
+{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+
+}
+.password .passwordInput input{
+    position: absolute;
+}

@@ -1,0 +1,44 @@
+export const expenseData=[
+    {
+    id:1,
+    date:"01/07/2025",
+    expense:20,
+    on:"Panipuri"
+  },
+  {
+    id:2,
+    date:"02/07/2025",
+    expense:80,
+    on:"Vada Pav"
+  },
+  {
+    id:3,
+    date:"03/07/2025",
+    expense:350,
+    on:"Biryani" 
+  },
+  {
+    id:4,
+    date:"04/07/2025",
+    expense:100,
+    on:"Chaat"
+  },
+  {
+    id:5,
+    date:"05/07/2025",
+    expense:45,
+    on:"Maggi",
+  },
+  {
+    id:6,
+    date:"07/07/2025",
+    expense:150,
+    on:"Beer"
+  },
+  {
+    id:7,
+    date:"08/07/2025",
+    expense:570,
+    on:"Grocery"
+  }
+]

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.NavBar ul{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    height:50px;
+    width: 100%;
+    position:fixed;
+    list-style-type: none;
+    top:0;
+    background-color: rgb(160, 90, 221);
+    color: white;
+    z-index:4;
+    font-family: "Noto Sans", sans-serif;
+}
+.NavBar ul li, .NavBar ul li Link, .NavBar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.NavBar ul li:nth-child(1)
+{
+    padding-left: 50px;
+    cursor:pointer;
+
+}
+
+.Logo{
+    margin-left:50px;
+    margin-right: 250px;
+     font-family: "Aldrich", sans-serif;
+    font-weight:bold;
+    font-size:xx-large;
+    cursor:default;
+}
+.NavBar ul li:nth-child(3),.NavBar ul li:nth-child(4), .NavBar ul li:nth-child(5), .NavBar ul li:nth-child(6)
+{
+    margin-right: 40px;
+    margin-left:40px;
+}
+.mainContent
+{
+    margin-top:80px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Noto Sans", sans-serif;
+}
+
+    
